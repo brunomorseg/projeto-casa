@@ -47,7 +47,7 @@
               
     }
 
-    main article > ul {list-style-position:inside;
+    main ul {list-style-position:inside;
         text-align: left;
         columns: 1;
         padding-bottom: 20px;
@@ -112,7 +112,7 @@
         th, td {
             border: 1px solid black;
             padding:10px;
-            font-size: 13px;
+            font-size: 15px;
         }
         td {
             text-align: right;
@@ -122,6 +122,9 @@
             width: 100%;
         }
 
+        @media (max-width: 427px){
+            th, td { font-size: 13px;}
+        }
    
 
         
@@ -140,7 +143,7 @@
 
     <main> 
        
-             <article>
+      
                 
 
 
@@ -346,8 +349,7 @@
 
 
                      
-                   
-             </article>
+          
 
                
 
