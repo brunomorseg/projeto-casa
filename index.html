@@ -73,7 +73,7 @@
             background-attachment: fixed;
             background-position: center;
             width: 100%;
-        }
+        } 
  
         .art, h2 { background-image: linear-gradient(to right,  #bf4158a8, #d9897783); 
             text-align: left;
@@ -104,6 +104,17 @@
 
         .nat {color: pink;}
 
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding:10px;
+        }
+        td {
+            text-align: right;
+        }
+
       
 
 </style>
@@ -119,6 +130,9 @@
     <main> 
        
              <article>
+                
+
+
                  <h1 class="art">Bairros</h1>
                     <ul style="font-family: verdana ;">
                             <li>Maria Paula</li>
@@ -170,12 +184,144 @@
                      </ul>
                     
                      <h2>Custo de Vida</h2>
-                     <ul> <li>Aluguel: R$1200 - R$800</li>
+                     <table style="margin-bottom:20px ;">
+                        <thead>
+                            <tr>
+                                <th>Base</th>
+                                <th>Máximo</th>
+                                <th>Meio</th>
+                                <th><strong>Mínimo</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Aluguel</th>
+                                <td>R$1200</td>
+                                <td>R$1000</td>
+                                <td>R$800</td>
+                                
+                            </tr>
+
+                            <tr>
+                                <th>Luz</th>
+                                <td>R$270</td>
+                                <td>R$220</td>
+                                <td>R$180</td>
+                            </tr>
+
+                            <tr>
+                                <th>Internet</th>
+                                <td colspan="3">R$120</td>
+                            </tr>
+
+                            <tr>
+                                <th>Diversos</th>
+                                <td>R$1000</td>
+                                <td>R$700</td>
+                                <td>R$500</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                                <th>Total</th>
+                                <td>R$2570</td>
+                                <td>R$1940</td>
+                                <td>R$1480</td>
+                        </tfoot>
+                 
+                  
+
+                     </table>
                             
+                            
+                     <h2 >Liberdade Financeira e Imóvel Próprio</h2>
+<table>
+    
+                         <thead>
+                            <tr> <th >Imóvel</th>
+                              
+                                <th>Mês</th>
+                                <th>Ano</th>
+                                <th>5 anos</th>
+                                <th>10 anos</th>
+                                <th>20 anos</th>
+                                <th>30 anos</th>
+                            </tr>
+                         </thead>
+                         <tbody>
+                                <th rowspan="5" scope="rowgroup">Aporte</th>
+                                <td>R$500</td>
+                                <td>R$6.000</td>
+                                <td>R$38.500</td>
+                                <td>R$99.282</td>
+                                <td>R$364.600</td>
+                                <td>R$1.100.000</td>
+                                <tr>
+                                    <td>R$750</td>
+                                    <td>R$9.000</td>
+                                    <td>R$57.186</td>
+                                    <td>R$148.923</td>  
+                                    <td>R$546.949</td>  
+                                    <td>R$1.650.000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>R$1.000</td>
+                                    <td>R$12.000</td>
+                                    <td>R$88.860 </td>
+                                    <td>R$198.565</td>
+                                    <td>R$729.266</td>
+                                    <td>R$2.230.000</td>
+                                </tr>
+
+                                <tr>
+                                    <td>R$1.250</td>
+                                    <td>R$15.580</td>
+                                    <td>R$95.310 </td>
+                                    <td>R$248.200</td>
+                                    <td>R$911.580</td>
+                                    <td>R$2.752.799</td>
+                                </tr>
+
+                                <tr>
+                                    <td>R$1.500</td>
+                                    <td>R$18.870</td>
+                                    <td>R$114.372</td>
+                                    <td>R$297.847 </td>
+                                    <td>R$1.093.899</td>
+                                    <td>R$3.304.559</td>
+                                </tr>
+
+                         </tbody>
+
+                 
+</table>
 
 
 
-                     </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
                    
              </article>
 
@@ -183,7 +329,7 @@
 
 </main>
 <footer>
-    <p>Site Criado por <a class="nat" href="">Bru&Nath</a> para Our Home</p>
+    <p>Site criado por <a class="nat" href="">Bru&Nath</a> para Our Home</p>
  </footer>   
 </body>
 </html>
