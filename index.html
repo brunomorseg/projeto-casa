@@ -10,28 +10,52 @@
 
     * {margin: 0;
     padding: 0;}
+
+    body {
+        background-color: #D98977 ;
+    }
     header {
-        height: 300px;
+        min-height: 150px;
         background-image: linear-gradient(to bottom, #d90467,#bf4158ab );
+     
        
     }
-    h1 {
-        padding-top: 100px;
+    header h1 {
+        
         text-align: center;
         color:#401B13 ;
         font-size: 130px; 
     }
 
-    .coisinha {
-        background-image: url(imagem/coisinha.jpg);
-        
-        background-size: cover;
-        background-attachment: fixed;
+  
+
+
+
+
+    main {
+        text-align: center;
+        background-color: white;
+        padding: 15px;
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+       
+              
     }
 
+    main article > ul {list-style-position:inside;
+        text-align: left;
+        columns: 1;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        padding-left: 10px;}
 
-
-
+        img {
+            background-position: center;
+            background-attachment: fixed;
+            width: 100%;
+        }
+ 
 
 
 
@@ -40,17 +64,43 @@
 
 </head>
 <body>
-    <header><h1><strong>Nossa Casa</strong></h1></header>
-    <section>
-        <h1>Lugares possíveis e seus Links</h1>
-        <UL><li></li>
+    <header>
         
-        
-        </UL>
+        <h1><strong>Nossa Casa</strong></h1>
+    
+    </header>
 
+    <main> 
+       
+             <article>
+                 <h1>Bairro possíveis</h1>
+                    <ul>
+                            <li>Maria Paula</li>
+                            <li>Vila Lage</li>
+                            <li>Paraíso</li>
+                            <li>Santa Catarina</li>
+                             
+                         
+                         
+                     </ul>
+                
+                     <picture>
+                        <img src="imagem/coisinha.jpg" alt="coisinha">
+                     </picture>
+                    
+                     <h2> Links das Casas</h2>
+                     <ul>
+                        <li>Maria Paula: <ol>
+                            <li>https://www.zapimoveis.com.br/imovel/aluguel-apartamento-2-quartos-maria-paula-sao-goncalo-rj-76m2-id-2576930232/</li>
+                            <li>https://www.vivareal.com.br/imovel/apartamento-3-quartos-maria-paula-bairros-sao-goncalo-com-garagem-60m2-aluguel-RS800-id-2579632497/</li>
+                        </ol></li>
+                     </ul>
 
-    </section>
-    <section class="coisinha"></section>
+             </article>
+
+      
+
+</main>
     
 </body>
 </html>
