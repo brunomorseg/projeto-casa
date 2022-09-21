@@ -89,16 +89,29 @@
             color: black;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 13px;
+        
         }
 
         a:hover {
             color: #d90467;
+            font-weight: bolder;
         }
+
+        a.B:hover {
+            color:  #d90467;
+            font-weight: bolder;
+        }
+
         a.B{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 14px;
-          
+            font-size: 14px; 
         }
+
+        a, a.B{
+            transition: all 1s linear;
+        }
+
+
 
         footer {
             background-color: black;
@@ -129,6 +142,10 @@
 
         @media (max-width: 427px){
             th, td { font-size: 10.5px;}
+        }
+
+        li {
+            padding-bottom: 3.5px;
         }
    
 
@@ -205,9 +222,9 @@
                          </ul>
                      
 <br>
-                     <h2>Necessário</h2>
+                     <h2 >Necessário</h2>
 
-                     <ul style="font-family: verdana ;">Seria bom morar perto de:
+                     <ul style="font-family: verdana ;"><p style="padding-bottom: 4.5px ;">Seria bom morar perto de:</p>
                         <li>Supermercado</li>
                         <li>Padaria (Nem tanto, mas seria bom)</li>
                         <li>Posto de Gasolina (GNV)</li>
